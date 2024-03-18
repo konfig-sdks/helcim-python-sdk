@@ -1,0 +1,75 @@
+# coding: utf-8
+
+# flake8: noqa
+
+# import all models into this package
+# if you have many models here with many references from one model to another this may
+# raise a RecursionError
+# to avoid this, import only the models that you directly need like:
+# from from helcim_python_sdk.model.pet import Pet
+# or import this package, but before doing it, use:
+# import sys
+# sys.setrecursionlimit(n)
+
+from helcim_python_sdk.model.address import Address
+from helcim_python_sdk.model.bank_account import BankAccount
+from helcim_python_sdk.model.bank_account_response import BankAccountResponse
+from helcim_python_sdk.model.bank_data import BankData
+from helcim_python_sdk.model.bank_data_bank_data import BankDataBankData
+from helcim_python_sdk.model.bank_token import BankToken
+from helcim_python_sdk.model.capture_request import CaptureRequest
+from helcim_python_sdk.model.card import Card
+from helcim_python_sdk.model.card1 import Card1
+from helcim_python_sdk.model.card_batch import CardBatch
+from helcim_python_sdk.model.card_batch_get_all_response import CardBatchGetAllResponse
+from helcim_python_sdk.model.card_data import CardData
+from helcim_python_sdk.model.card_data_card_data import CardDataCardData
+from helcim_python_sdk.model.card_response import CardResponse
+from helcim_python_sdk.model.card_terminal import CardTerminal
+from helcim_python_sdk.model.card_terminal_address import CardTerminalAddress
+from helcim_python_sdk.model.card_terminal_get_all_response import CardTerminalGetAllResponse
+from helcim_python_sdk.model.card_terminals_request import CardTerminalsRequest
+from helcim_python_sdk.model.card_token import CardToken
+from helcim_python_sdk.model.card_transaction_collect_transactions_response import CardTransactionCollectTransactionsResponse
+from helcim_python_sdk.model.checkout_init200_response import CheckoutInit200Response
+from helcim_python_sdk.model.checkout_init_default_response import CheckoutInitDefaultResponse
+from helcim_python_sdk.model.checkout_init_default_response_errors import CheckoutInitDefaultResponseErrors
+from helcim_python_sdk.model.create_invoice200_response import CreateInvoice200Response
+from helcim_python_sdk.model.create_invoice_request import CreateInvoiceRequest
+from helcim_python_sdk.model.customer import Customer
+from helcim_python_sdk.model.customer_get_bank_account_response import CustomerGetBankAccountResponse
+from helcim_python_sdk.model.customer_get_bank_accounts_response import CustomerGetBankAccountsResponse
+from helcim_python_sdk.model.customer_get_card_details_response import CustomerGetCardDetailsResponse
+from helcim_python_sdk.model.customer_get_cards_response import CustomerGetCardsResponse
+from helcim_python_sdk.model.customer_list_response import CustomerListResponse
+from helcim_python_sdk.model.customer_request import CustomerRequest
+from helcim_python_sdk.model.customer_set_bank_account_default_response import CustomerSetBankAccountDefaultResponse
+from helcim_python_sdk.model.customer_update_request import CustomerUpdateRequest
+from helcim_python_sdk.model.discount import Discount
+from helcim_python_sdk.model.failed_payment_response import FailedPaymentResponse
+from helcim_python_sdk.model.failed_payment_response_errors import FailedPaymentResponseErrors
+from helcim_python_sdk.model.get_invoice200_response import GetInvoice200Response
+from helcim_python_sdk.model.get_invoices200_response_inner import GetInvoices200ResponseInner
+from helcim_python_sdk.model.helcim_pay_initialize_request import HelcimPayInitializeRequest
+from helcim_python_sdk.model.invoice import Invoice
+from helcim_python_sdk.model.invoice_base import InvoiceBase
+from helcim_python_sdk.model.invoice_create import InvoiceCreate
+from helcim_python_sdk.model.invoice_create_after_processing import InvoiceCreateAfterProcessing
+from helcim_python_sdk.model.invoice_list_response import InvoiceListResponse
+from helcim_python_sdk.model.invoice_response_base import InvoiceResponseBase
+from helcim_python_sdk.model.invoice_update import InvoiceUpdate
+from helcim_python_sdk.model.line_item import LineItem
+from helcim_python_sdk.model.payment_request import PaymentRequest
+from helcim_python_sdk.model.payment_request_invoice import PaymentRequestInvoice
+from helcim_python_sdk.model.pickup import Pickup
+from helcim_python_sdk.model.purchase_request import PurchaseRequest
+from helcim_python_sdk.model.refund_request import RefundRequest
+from helcim_python_sdk.model.refund_request1 import RefundRequest1
+from helcim_python_sdk.model.shipping import Shipping
+from helcim_python_sdk.model.successful_ach_transaction_response import SuccessfulAchTransactionResponse
+from helcim_python_sdk.model.successful_payment_response import SuccessfulPaymentResponse
+from helcim_python_sdk.model.tax import Tax
+from helcim_python_sdk.model.update_invoice_request import UpdateInvoiceRequest
+from helcim_python_sdk.model.verify_request import VerifyRequest
+from helcim_python_sdk.model.verify_request_invoice import VerifyRequestInvoice
+from helcim_python_sdk.model.withdraw_request import WithdrawRequest
